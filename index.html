@@ -12,14 +12,35 @@
         <title>TP5 - DOMBOM - EJ6</title>
 </head>
 
-<body>
-    <main class="container text-center my-5">
-        <section class="titulo">
-            <h1 id="temporizador">00:00:00:00</h1>
-            <button id="play">play</button>
-            <button id="pause">pause</button>
-            <button id="reset">reset</button>
-        </section>
+<body class="container">
+  <section class="text-center container">
+    <h1 class="text-center fuente" >Temporizador de 60 minutos</h1>     
+    <div>
+    <div  class="container">
+      <span class="count-digit inputMinuto1 fuente">0</span>
+      <span class="count-digit fuente">0</span>
+      <span class="separator fuente">:</span>
+      <span class="count-digit fuente">0</span>
+      <span class="count-digit fuente">0</span>
+    </div>
+  </div>
+    <div class="options d-flex justify-content-center">
+      <button id="stop-timer">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/pause--v1.png" />
+      </button>
+      <button id="start-timer">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/play--v1.png" />
+      </button>
+      <button id="reset-timer">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/stop.png" />
+      </button>
+    </div>
+    <div class="my-4"><a type="button" href="index.html" class="btn btn-danger m-1 col-12 col-md-4 col-lg-2">Reiniciar Temporizador</a></div>
+
+    </section>
+  </body>
+    
+        
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
